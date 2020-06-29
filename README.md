@@ -1,25 +1,33 @@
 # Nectarguide
-Short description and motivation.
+Nectarguide is a Ruby on Rails gem / engine that adds an autosuggest search feature to apps using the [http://projectblacklight.org/](Project Blacklight gem).
 
 ## Usage
 How to use my plugin.
 
 ## Installation
-Add this line to your application's Gemfile:
+1. You will have to add the Nectarguide gem to a gem source, or clone the repository into your filesystem. 
+
+2. Add this line to your application's Gemfile, somewhere above the line that installs Blacklight:
 
 ```ruby
-gem 'nectarguide'
+gem 'nectarguide', :path => "/Users/username/Projects/"
+```
+If you have cloned the gem, you will have to include the path to the location in which you cloned the gem. If not, you may omit the `:path` portion.
+
+3. Add these lines to your app's applicaiton.js file:
+```javascript
+
 ```
 
-And then execute:
-```bash
-$ bundle
+4. Add this to your app's application.css.scss file:
+```ruby
+ /*
+ *= require 'jquery-ui.min.css'
+ */
+
+  @import "search-form";
 ```
 
-Or install it yourself as:
-```bash
-$ gem install nectarguide
-```
 
 ## Contributing
 Contribution directions go here.
