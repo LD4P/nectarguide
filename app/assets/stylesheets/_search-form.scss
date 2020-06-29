@@ -176,33 +176,20 @@ h2.advanced-search { margin: 0; }
 	border: none !important;
 	margin: 0 !important;
 }
+.ac-menu-item {
+  font-size: 10pt;
+}
 .ac-menu-item:hover {
 	background: #9fccf3 !important;
 }
 .ac-menu-item > span, .ac-menu-item > div > span {
-	font-size: 14px !important;
+	font-size: 9pt !important;
 	color: #767676;
 }
+.ui-menu-item-wrapper {
+  background: none !important;
+  border: none !important;
+  font-weight: normal !important;
+}
 
-// Imported styles from Cornell catalog app //
-
-#autocomplete {
-  border:1px solid;
-  overflow:hidden;
-  position:absolute;
-  z-index:100;
-}
-#autocomplete ul {
-  list-style:none;
-  list-style-image:none;
-  margin:0;
-  padding:0;
-}
-#autocomplete li {
-  background:#fff;
-  color:#000;
-  cursor:default;
-  white-space:pre;
-  zoom:1;
-}
 
