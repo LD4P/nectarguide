@@ -3,6 +3,9 @@ Nectarguide is a Ruby on Rails engine (gem) that adds an autosuggest search feat
 
 The engine is named for patterns found on flowers, called [nectar guides](https://en.wikipedia.org/wiki/Nectar_guide), that help pollinators find what they are looking for. Flower nectar guides are often visible under ultraviolet light (black light).
 
+## Video demo
+[![Nectarguide video demo](http://img.youtube.com/vi/J9Zo9bbPTlg/0.jpg)](http://www.youtube.com/watch?v=J9Zo9bbPTlg "Nectarguide")
+
 ## Usage
 Nectarguide provides search suggestions based upon user-entered strings. The suggestsions are divided into Subject, Author, Location, Genres, etc.
 
